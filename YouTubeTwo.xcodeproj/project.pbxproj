@@ -14,6 +14,9 @@
 		3610D9501DDBE89F005DCB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3610D94E1DDBE89F005DCB97 /* LaunchScreen.storyboard */; };
 		3610D95B1DDBE89F005DCB97 /* YouTubeTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610D95A1DDBE89F005DCB97 /* YouTubeTwoTests.swift */; };
 		3610D9661DDBE89F005DCB97 /* YouTubeTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610D9651DDBE89F005DCB97 /* YouTubeTwoUITests.swift */; };
+		3610D9741DDBE90E005DCB97 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610D9731DDBE90E005DCB97 /* MenuViewController.swift */; };
+		3610D9761DDBE91F005DCB97 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610D9751DDBE91F005DCB97 /* FeedViewController.swift */; };
+		3610D9781DDBE977005DCB97 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610D9771DDBE977005DCB97 /* HamburgerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3610D9611DDBE89F005DCB97 /* YouTubeTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3610D9651DDBE89F005DCB97 /* YouTubeTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeTwoUITests.swift; sourceTree = "<group>"; };
 		3610D9671DDBE89F005DCB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3610D9731DDBE90E005DCB97 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3610D9751DDBE91F005DCB97 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3610D9771DDBE977005DCB97 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3610D9451DDBE89F005DCB97 /* AppDelegate.swift */,
 				3610D9471DDBE89F005DCB97 /* ViewController.swift */,
 				3610D9491DDBE89F005DCB97 /* Main.storyboard */,
+				3610D9771DDBE977005DCB97 /* HamburgerViewController.swift */,
+				3610D9751DDBE91F005DCB97 /* FeedViewController.swift */,
+				3610D9731DDBE90E005DCB97 /* MenuViewController.swift */,
 				3610D94C1DDBE89F005DCB97 /* Assets.xcassets */,
 				3610D94E1DDBE89F005DCB97 /* LaunchScreen.storyboard */,
 				3610D9511DDBE89F005DCB97 /* Info.plist */,
@@ -263,6 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3610D9481DDBE89F005DCB97 /* ViewController.swift in Sources */,
+				3610D9741DDBE90E005DCB97 /* MenuViewController.swift in Sources */,
+				3610D9761DDBE91F005DCB97 /* FeedViewController.swift in Sources */,
+				3610D9781DDBE977005DCB97 /* HamburgerViewController.swift in Sources */,
 				3610D9461DDBE89F005DCB97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
